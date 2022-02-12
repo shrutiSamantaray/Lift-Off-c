@@ -7,16 +7,16 @@ int main()
     
 
     printf("Please enter your name\n");
-    scanf("%s", name );
-
-    printf("Enter your registration no. (only last three digits)\n");
-    scanf("%d" , &num);
+    gets(name);
 
     printf("Enter your branch\n");
-    scanf("%s", branch);
+    gets(branch);
 
     printf("What is/are your hobby(s) ? \n");
-    scanf("%s", hobby);
+    gets(hobby);
+    
+    printf("Enter your registration no. (only last three digits)\n");
+    scanf("%d" , &num);
     
     printf("Required details : \n Name : %s \n Registration no. : %d\n Branch : %s\n Hobby(s) : %s\n" , name , num , branch , hobby);
 
