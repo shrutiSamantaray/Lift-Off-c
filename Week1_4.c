@@ -28,7 +28,7 @@ int main()
            printf(" Multiplication  : %d * %d = %d\n" , a , b , a * b);
            break;
         case 4 :
-           printf(" Division  : %d / %d = %d\n" , a , b , a / b);
+           printf(" Division  : %d / %d = %f\n" , a , b ,(float) a / b);
            break;
         case 5 :
            printf(" Modulus : %d %% %d = %d\n" , a , b , a%b );
